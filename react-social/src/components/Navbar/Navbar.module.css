@@ -1,0 +1,36 @@
+.nav {
+    width: 200px;
+    grid-area: nav;
+//box-shadow: 0 0 38px rgba(74, 58, 161, 0.17);
+}
+.nav ul li {
+    width: 190px;
+    padding: 10px 0;
+}
+.nav ul li:hover {
+    background-color: #f2f2f2;
+}
+.nav ul li:before {
+    position: relative;
+    top: 2.5px;
+    margin-right: 5px;
+}
+.nav ul li a {
+    font-size: 20px;
+    font-weight: 500;
+}
+.userProfile:before {
+    content: url("../../assets/images/profile.svg");
+}
+.messages:before {
+    content: url("../../assets/images/chat.svg");
+}
+.news:before {
+    content: url("../../assets/images/news.svg");
+}
+.music:before {
+    content: url("../../assets/images/music.svg");
+}
+.settings:before {
+    content: url("../../assets/images/interface.svg");
+}

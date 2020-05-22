@@ -1,0 +1,22 @@
+.Post {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 0 38px rgba(74, 58, 161, 0.17);
+    padding: 20px;
+    border-radius: 5px;
+}
+.Post ul {
+    margin-left: 20px;
+}
+.UserImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 45px rgba(74, 78, 161, 0.17);
+    box-sizing: border-box;
+    border-radius: 50%;
+}

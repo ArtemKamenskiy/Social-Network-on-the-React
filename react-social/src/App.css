@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.App {
+  display: grid;
+  grid-template-areas:
+          "header header header"
+          "app-cont app-cont app-cont";
+  width: 100%;
+  margin: 0 auto;
+}
+.app-container {
+  grid-area: app-cont;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
