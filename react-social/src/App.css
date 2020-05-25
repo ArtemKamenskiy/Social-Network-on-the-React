@@ -7,6 +7,8 @@ li {
 }
 a {
   text-decoration: none;
+  color: #000000;
+
 }
 .App {
   display: grid;
@@ -26,4 +28,7 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+.page-container {
+  width: 1000px;
 }

@@ -4,7 +4,6 @@
     width: 100%;
     margin: 20px 0;
     box-shadow: 0 0 38px rgba(74, 58, 161, 0.17);
-    padding: 20px;
     border-radius: 5px;
 }
 .Post ul {
@@ -19,4 +18,5 @@
     box-shadow: 0 0 45px rgba(74, 78, 161, 0.17);
     box-sizing: border-box;
     border-radius: 50%;
+    margin: 20px;
 }

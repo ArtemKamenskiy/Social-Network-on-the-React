@@ -1,13 +1,13 @@
-.profile {
-    width: 1000px;
-    grid-area: profile;
-}
+/*.profile {*/
+/*    width: 1000px;*/
+/*    grid-area: profile;*/
+/*}*/
 .user {
     display: flex;
     align-items: center;
     width: 100%;
     box-shadow: 0 0 38px rgba(74, 58, 161, 0.17);
-    padding: 20px;
+    /*padding: 20px;*/
     border-radius: 5px;
 }
 .userImg {
@@ -19,6 +19,7 @@
     box-shadow: 0 0 45px rgba(74, 78, 161, 0.17);
     box-sizing: border-box;
     border-radius: 50%;
+    margin: 20px;
 }
 .user ul {
     margin-left: 50px;
