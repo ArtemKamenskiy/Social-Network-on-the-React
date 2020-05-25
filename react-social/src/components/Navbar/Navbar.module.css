@@ -1,14 +1,10 @@
 .nav {
     width: 200px;
     grid-area: nav;
-//box-shadow: 0 0 38px rgba(74, 58, 161, 0.17);
 }
 .nav ul li {
     width: 190px;
 }
-/*.nav ul li:hover {*/
-/*    background-color: #f2f2f2;*/
-/*}*/
 .nav ul li a:before {
     position: relative;
     top: 2.5px;
