@@ -1,0 +1,64 @@
+.dialogs {
+    display: flex;
+    width: 100%;
+}
+.users {
+    width: 350px;
+    height: 700px;
+}
+.users ul {
+    padding: 0 20px;
+}
+.users ul li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+    box-shadow: 0 0 38px rgba(74, 58, 161, 0.17);
+    border-radius: 5px;
+}
+.userImg {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+.userImg img {
+    width: 25px;
+    height: 25px;
+}
+.userDialogs {
+    height: 700px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 38px rgba(74, 58, 161, 0.17);
+    border-radius: 5px;
+}
+.dialogsContainer {
+    width: 550px;
+}
+.sendMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+    padding: 10px 0;
+    box-shadow: 0 0 38px rgba(74, 58, 161, 0.17);
+    border-radius: 5px;
+}
+.sendMessage input {
+    width: 400px;
+    height: 30px;
+    outline: none;
+}
+.sendMessage button {
+    width: 80px;
+    font-size: 18px;
+    height: 34px;
+    outline: none;
+}

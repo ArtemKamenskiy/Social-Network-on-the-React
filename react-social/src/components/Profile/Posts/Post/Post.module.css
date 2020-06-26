@@ -1,4 +1,5 @@
 .Post {
+    position: relative;
     display: flex;
     align-items: center;
     width: 100%;
@@ -6,7 +7,9 @@
     box-shadow: 0 0 38px rgba(74, 58, 161, 0.17);
     border-radius: 5px;
 }
-.Post ul {
+.postContent {
+    display: flex;
+    justify-content: space-between;
     margin-left: 20px;
 }
 .UserImage {
@@ -19,4 +22,25 @@
     box-sizing: border-box;
     border-radius: 50%;
     margin: 20px;
+}
+.text {
+    width: 650px;
+    padding: 20px 0;
+}
+.likes {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+}
+.likes img {
+    position: relative;
+    top: 1px;
+    margin-right: 3px;
+    cursor: pointer;
 }
